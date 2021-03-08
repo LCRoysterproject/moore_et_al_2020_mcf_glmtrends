@@ -1,0 +1,1 @@
+# moore_et_al_2020_mcf_glmtrends
