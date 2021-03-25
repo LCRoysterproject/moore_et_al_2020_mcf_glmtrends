@@ -1,15 +1,7 @@
-This is the `script` folder outline. The `script` folder will include all scripting code files. 
+This is the `scripts` folder. This folder contains:  
   
-### Naming Standards  
-Every script is required to be in lowercase, no uppercase (camelcase) nor all caps, all names with separate words need to include a underscore ( _ ) and **no spaces**, no dates in the names unless it helps with the descriptions of the content (i.e., discharge_1941_2018_quantile.R, landings_1986_2018_analysis.R). Script file names should be descriptive and concise. Scripts that have a single ouput should be named in a similar fashion to its filetype output.  
-  
-If there are more than 10 different scripts, categorize them by applicable folders. This is **NOT** normal for one individual repository project.  
-  
-Optional folder examples:  
-
-- data_figure  
-- analysis  
-- map  
-- simulation  
-
-
+- `create_all_epoch_transect_data.R` - this R code produces the `create_all_epoch_transect_data.csv` file
+- `drought_sea_level_figures.R` - this R code used the `georgia_drought_index.csv`, the `florida_drought_index.csv` and the 
+- `glm_trends_glmnb.R`-  this R code produces simulated data simdata.rds
+- `glm_trends_glmnb2.R`	- this R code produces simulated data simdata.rds
+- `oyster_functions.R` - this R code is sourced by other scripts for analyses with transect data  
